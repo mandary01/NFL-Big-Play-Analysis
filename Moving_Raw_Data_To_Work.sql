@@ -1,0 +1,31 @@
+CREATE TABLE demo.RAWpbp_2019
+LIKE demo.pbp_2019; 
+
+SELECT *
+FROM demo.RAWpbp_2019;
+
+INSERT demo.RAWpbp_2019
+SELECT *
+FROM demo.pbp_2019;
+
+CREATE TABLE demo.RAWpbp_2020
+LIKE demo.pbp_2020; 
+
+SELECT *
+FROM demo.RAWpbp_2020;
+
+INSERT demo.RAWpbp_2020
+SELECT *
+FROM demo.pbp_2020;
+
+CREATE TABLE demo.RAWpbp_2021
+LIKE demo.pbp_2021;
+
+SELECT *
+FROM demo.RAWpbp_2021;
+
+INSERT demo.RAWpbp_2021
+SELECT *
+FROM demo.pbp_2021;
+
+
